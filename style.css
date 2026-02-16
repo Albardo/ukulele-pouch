@@ -383,6 +383,11 @@ img {
     gap: 12px;
 }
 
+.screenshot-image {
+    width: 100%;
+    display: block;
+}
+
 .screenshot-card img {
     border-radius: var(--radius-sm);
     width: 100%;
@@ -651,7 +656,12 @@ img {
 }
 
 .screenshots.compact .device-section[data-device="phone"] .screenshot-card {
-    padding: 10px;
+    padding: 14px 4px;
+}
+
+.screenshots.compact .device-section[data-device="phone"] .screenshot-image {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
 }
 
 @media (max-width: 899px) {

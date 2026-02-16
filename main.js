@@ -7,7 +7,7 @@ const COMPACT_SCREENSHOTS = true;
 
 const i18n = {
   cs: {
-    metaTitle: "Ukulele Pouch – PDF taby, akordy, ladička a metronom",
+  metaTitle: "Ukulele Pouch",
     metaDescription:
       "Aplikace se vším co na ukulele potřebuješ: import PDF zpěvníků a tabulatur, knihovna akordů, akordových progresí, stupnice, ladička (High‑G/Low‑G) a metronom. Funguje offline. Bez reklam.",
     heroTitle: "Ukulele Pouch",
@@ -53,7 +53,7 @@ const i18n = {
     footerPrivacy: "Zásady ochrany soukromí",
   },
   en: {
-    metaTitle: "Ukulele Pouch – PDF Tabs, Chords, Tuner & Metronome",
+  metaTitle: "Ukulele Pouch",
     metaDescription:
       "All‑in‑one ukulele app: PDF songbook & tabs viewer, chord library, progressions, scales, tuner (High‑G/Low‑G) and metronome. Works offline. No ads.",
     heroTitle: "Ukulele Pouch",
@@ -269,7 +269,9 @@ function renderScreenshotsForDevice(device, container) {
     button.dataset.fullSrc = `assets/screenshots-${item.device}/${item.file}`;
     button.dataset.caption = item.caption;
     button.innerHTML = `
-      <img src="assets/screenshots-${item.device}/${item.file}" alt="${item.caption}" loading="lazy" />
+      <div class="screenshot-image">
+        <img src="assets/screenshots-${item.device}/${item.file}" alt="${item.caption}" loading="lazy" />
+      </div>
       <p>${item.caption}</p>
     `;
     button.addEventListener("click", () =>
