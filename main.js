@@ -25,28 +25,48 @@ const i18n = {
     badgeNoSubs: "Bez předplatného",
     featuresTitle: "Co umí",
     feature1Title: "PDF zpěvník a taby",
-    feature1Desc: "Importuj vlastní PDF, třiď je do kategorií a rychle vyhledávej.",
-    feature2Title: "Knihovna akordů",
-    feature2Desc: "Interaktivní hmaty s více variantami a přehráváním.",
-    feature3Title: "Akordové postupy",
+    feature1Desc: "Importování vlastních PDF, třidění do kategorií a rychlé vyhledávání..",
+    feature2Title: "Akordy",
+    feature2Desc:
+      "Najdi skoro každý akord s několika prstoklady. Přehraj ho, ulož do oblíbených a urči název z hmatníku.",
+    feature3Title: "Akordové progrese",
     feature3Desc:
-      "Filtruj podle nálady a žánru, transponuj do libovolné tóniny a přehraj celý postup.",
+      "Filtruj podle nálady/žánru/energie i římských číslic, transponuj do libovolné tóniny a přehrávej.",
     feature4Title: "Stupnice",
-    feature4Desc: "Tóny na hmatníku, diatonické akordy a přehrání celé stupnice.",
-    feature5Title: "Ladička a metronom",
-    feature5Desc: "Přesná ladička (High‑G / Low‑G) a metronom s Tap Tempo.",
-    feature6Title: "Záloha a přenos",
-    feature6Desc: "Exportuj a importuj celou knihovnu pro snadný přechod na nové zařízení.",
+    feature4Desc:
+      "Zobraz tóny na hmatníku a diatonické akordy. Přehraj stupnici i její akordy.",
+    feature5Title: "Ladička",
+    feature5Desc: "Nalaď si High-G i Low-G ukulele. Automatická detekce struny i ruční výběr.",
+    feature6Title: "Metronom",
+    feature6Desc:
+      "Hraj s plně nastavitelným metronomem pomocí mini přehrávače v celé aplikaci.",
+    feature7Title: "Plovoucí tlačítko nástrojů",
+    feature7Desc:
+      "Měj v celé aplikaci okamžitý přístup ke všem nástrojům. Lze volně přesouvat po displeji.",
+    feature8Title: "Design a pohodlí",
+    feature8Desc:
+      "Teplé a útulné barvy, světlý i tmavý režim, podpora na šířku.",
+    feature9Title: "Záloha a přenos dat",
+    feature9Desc: "Exportuj a importuj celou knihovnu pro snadný přechod na nové zařízení.",
     screenshotsTitle: "Ukázky aplikace",
     devicePhone: "Telefon",
     deviceTablet: "Tablet",
     faqTitle: "FAQ",
-    faq1Q: "Můžu importovat vlastní PDF?",
-    faq1A: "Ano. PDF soubory importuješ do knihovny, třídíš do kategorií a rychle vyhledáváš.",
-    faq2Q: "Funguje aplikace offline?",
-    faq2A: "Ano, vše funguje offline včetně zpěvníku, akordů, ladičky i metronomu.",
-    faq3Q: "Jak zálohovat nebo přenést data?",
-    faq3A: "Použij export/import a přenes celou knihovnu do nového zařízení.",
+    faq1Q: "Jak do aplikace dostanu vlastní PDF taby a zpěvníky?",
+    faq1A:
+      "V knihovně otevři import a vyber PDF ze zařízení. Můžeš je řadit do kategorií a později rychle vyhledat podle názvu nebo kategorie.",
+    faq2Q: "Funguje Ukulele Pouch bez internetu?",
+    faq2A:
+      "Ano. Knihovna písniček, akordy, stupnice, metronom i ladička fungují offline. Internet potřebuješ jen pro stažení aplikace a případné sdílení souborů mezi zařízeními.",
+    faq3Q: "Jak zálohovat data nebo je přenést do nového telefonu?",
+    faq3A:
+      "Použij Export/Import v nastavení. Přeneseš písničky, kategorie, oblíbené akordy i vybraná nastavení – stačí soubor zkopírovat do nového zařízení a importovat.",
+    faq4Q: "Podporuje ladička High-G i Low-G?",
+    faq4A:
+      "Ano. Můžeš přepnout ladění a ladička automaticky detekuje strunu, případně si ji vybereš ručně.",
+    faq5Q: "Umí aplikace rozpoznat akord z hmatníku?",
+    faq5A:
+      "Ano. Naklikej prsty na interaktivním hmatníku a aplikace zkusí určit název akordu. U akordů máš i více prstokladů a přehrávání.",
     footerText:
       `© ${new Date().getFullYear()} Ukulele Pouch.`,
     footerPlay: "Google Play",
@@ -71,28 +91,48 @@ const i18n = {
     badgeNoSubs: "No subscriptions",
     featuresTitle: "What you get",
     feature1Title: "PDF Songbook & Tabs",
-    feature1Desc: "Import your own PDFs, organize them into categories, and search instantly.",
-    feature2Title: "Chord Library",
-    feature2Desc: "Interactive chord diagrams with multiple fingerings and playback.",
+    feature1Desc: "Import your own PDFs, sort into categories, and search fast.",
+    feature2Title: "Chords",
+    feature2Desc:
+      "Find almost any chord with multiple fingerings. Play it, save favorites, and detect the name from the fretboard.",
     feature3Title: "Chord Progressions",
     feature3Desc:
-      "Browse moods and genres, transpose to any key, and play the full progression.",
+      "Filter by mood/genre/energy or Roman numerals, transpose to any key, and play them back.",
     feature4Title: "Scales",
-    feature4Desc: "See scale tones on the fretboard, diatonic chords, and play the scale.",
-    feature5Title: "Tuner & Metronome",
-    feature5Desc: "Accurate tuner (High‑G / Low‑G) and a flexible metronome with Tap Tempo.",
-    feature6Title: "Backup & Transfer",
-    feature6Desc: "Export and import your library for easy migration to a new device.",
+    feature4Desc:
+      "Show notes on the fretboard and diatonic chords. Play the scale and its chords.",
+    feature5Title: "Tuner",
+    feature5Desc: "Tune your High-G or Low-G ukulele. Automatic string detection or manual selection.",
+    feature6Title: "Metronome",
+    feature6Desc:
+      "Play with a fully adjustable metronome using the mini player across the app.",
+    feature7Title: "Floating Tools Button",
+    feature7Desc:
+      "Instant access to all tools across the app. Freely movable on the screen.",
+    feature8Title: "Design & Comfort",
+    feature8Desc:
+      "Warm, cozy colors, light & dark mode, landscape support.",
+    feature9Title: "Backup & Transfer",
+    feature9Desc: "Export and import your library for easy migration to a new device.",
     screenshotsTitle: "Screenshots",
     devicePhone: "Phone",
     deviceTablet: "Tablet",
     faqTitle: "FAQ",
-    faq1Q: "Can I import my own PDFs?",
-    faq1A: "Yes. Import PDFs into your library, organize them into categories, and search fast.",
-    faq2Q: "Does it work offline?",
-    faq2A: "Everything works offline, including the songbook, chords, tuner, and metronome.",
-    faq3Q: "How do I backup or move data?",
-    faq3A: "Use the export/import tools to move your library to a new device.",
+    faq1Q: "How do I import my own PDF tabs and songbooks?",
+    faq1A:
+      "In the Library, use Import and pick a PDF from your device. Organize it into categories and quickly find it later by name or category.",
+    faq2Q: "Does Ukulele Pouch work offline?",
+    faq2A:
+      "Yes. Your library, chords, scales, metronome, and tuner work offline. You only need internet to download the app and for optional file transfers between devices.",
+    faq3Q: "How do I back up or move my data to a new phone?",
+    faq3A:
+      "Use Export/Import in Settings. It transfers songs, categories, favorite chords, and selected settings—copy the export file to the new device and import it.",
+    faq4Q: "Does the tuner support High-G and Low-G?",
+    faq4A:
+      "Yes. Switch the tuning, and the tuner can detect the string automatically—or you can pick it manually.",
+    faq5Q: "Can the app detect a chord from the fretboard?",
+    faq5A:
+      "Yes. Tap positions on the interactive fretboard and the app will try to detect the chord name. You also get multiple fingerings and playback.",
     footerText:
       `© ${new Date().getFullYear()} Ukulele Pouch.`,
     footerPlay: "Google Play",

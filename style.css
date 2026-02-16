@@ -462,10 +462,25 @@ img {
     cursor: pointer;
     font-weight: 700;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
 }
 
 .faq-item summary::-webkit-details-marker {
     display: none;
+}
+
+.faq-item summary::after {
+    content: "▾";
+    font-size: 1rem;
+    color: var(--color-muted);
+    transition: transform 160ms ease;
+}
+
+.faq-item[open] summary::after {
+    transform: rotate(180deg);
 }
 
 .faq-item p {
